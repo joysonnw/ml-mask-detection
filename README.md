@@ -1,6 +1,10 @@
 # ML Mask Detection
 
 This project uses machine learning to detect whether a person is wearing a mask or not.
+The workflow includes:
+1. **Data preprocessing**: Loading and cleaning images from the dataset.
+2. **Model training**: Building a CNN using TensorFlow/Keras and training it on the dataset.
+3. **Evaluation and testing**: Checking model accuracy on unseen images and predicting mask/no-mask.
 
 ## Dataset
 You can download the dataset from this link:  
